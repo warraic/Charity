@@ -1,0 +1,25 @@
+#img{
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    margin-top: 90px;
+}
+.carousel-caption h3{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: 500;
+    margin-top: -10rem;
+}
+.carousel-caption p{
+    background-color: rgb(31, 29, 29);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.863);
+}
+.d_block{
+    height: 40vh;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+  color: white;
+}

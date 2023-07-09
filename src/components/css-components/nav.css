@@ -1,0 +1,62 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    rgb(73, 247, 102),
+    rgb(43, 134, 40),
+    rgb(103, 158, 112)
+  );
+  box-shadow: 0 4px 6px -1px rgba(36, 35, 35, 0.959), 0 2px 4px -2px rgb(141, 141, 141);
+}
+
+.navbar-nav {
+  align-items: center;
+}
+.navbar-toggler  {
+  border: 2px solid;
+  color: rgb(0, 0, 0);
+}
+#icon{
+height: 50px;
+width: 50px;
+border-radius: 10px;
+}
+
+.active {
+  background: linear-gradient(to left, rgb(2, 77, 15), rgba(13, 155, 8, 0.774));
+  margin-right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.active:hover{
+  color: white;
+}
+
+.link {
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 5px;
+  transition: 0.9s ease;
+  color: white;
+}
+.link:hover {
+  background: rgba(0, 0, 0, 0.199);
+  cursor: pointer;
+  color: rgb(34, 34, 34);
+}
+#navbarNavAltMarkup {
+  flex-grow: 0;
+}
+#navbarNavAltMarkup a {
+  font-weight: 700;
+  width: 120px;
+  padding: auto;
+}
+@media only screen and (max-width: 767px) {
+  #navbarNavAltMarkup a {
+    font-weight: 400;
+  }
+}
